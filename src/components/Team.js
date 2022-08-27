@@ -54,8 +54,8 @@ export const Team = () => {
                
                 <br></br>
                 <br></br>
-                <center><h2>Team</h2>
-                <p>We are legion, we don't forget, expect us!</p>
+                <center><h2>More about me</h2>
+                <p>Check them out</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                   </Nav>
@@ -81,7 +81,8 @@ export const Team = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+     
     </section>
   )
 }
+

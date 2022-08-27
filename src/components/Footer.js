@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
+
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/discord.svg";
 import navIcon2 from "../assets/img/github.svg";
@@ -27,11 +27,10 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
                 <a href="https://discordapp.com/users/928575843641479198" target="_blank"><img src={navIcon1} alt="Discord" /></a>
-                <a href="https://github.com/nodesxploit/testnet"target="_blank"><img src={navIcon2} alt="Github" /></a>
                 <a href="https://twitter.com/nodexploit" target="_blank"><img src={navIcon3} alt="Twitter" /></a>
                 <a href="https://youtube.com" target="_blank"><img src={navIcon4} alt="Youtube" /></a>
             </div>
-            <p>Made with ❤️ NodeX | WannaCry</p>
+            <p>2022- Stay hungry, stay foolish</p>
           </Col>
         </Row>
       </Container>
